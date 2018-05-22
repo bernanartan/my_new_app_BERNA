@@ -1,3 +1,2 @@
-# README
-
-my first app by berna
+# my_new_app_BERNA
+# bernasapp
