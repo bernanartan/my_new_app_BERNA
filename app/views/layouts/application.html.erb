@@ -2,6 +2,9 @@
 <html>
   <head>
     <title>Bernasapp</title>
+         <p>Welcome! The date and time is <%= Time.now %></p>
+    <h1>Welcome to Bike Berlin</h1>
+<h2>Your source for used bikes in Berlin</h2>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -9,10 +12,20 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
-      <p>Welcome! The date and time is <%= Time.now %></p>
-    <h1>Welcome to Bike Berlin</h1>
-<h2>Your source for used bikes in Berlin</h2>
-    <%= yield %>
-  </body>
+  body>
+  <nav>
+    <ul>
+      <li><%= link_to "Home", root_path %></li>
+      <li><%= link_to "About", sample_pages_about_path %></li>
+      <li><%= link_to "Contact", sample_pages_contact_path %></li>
+    </ul>
+  </nav>
+
+  <%= yield %>
+
+  <footer>
+    &copy; 2018 Bike Berlin
+  </footer>
+</body>
+
 </html>
