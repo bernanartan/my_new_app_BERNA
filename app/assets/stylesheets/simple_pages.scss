@@ -4,3 +4,43 @@ h1 {
 	font-family: Futura, Helvetica , Arial, sans-serif;
 	margin: 50px, 10px;
 }
+
+nav ul {
+	padding: 5px 10px 5px;
+	font-family: Futura, Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	background-color: black;
+	color: #F8F8FF;
+}
+
+nav li {
+	display: inline-block;
+	letter-spacing: 0.09em;
+	color: white;
+}
+
+.Bild {
+	margin: 3px 3px 3px 3px;
+	border-style: solid;
+	padding: 1em;
+	border-width: 3em, 3em;
+}
+
+.site-footer {
+  height: 20px;
+  background: grey;
+}
+
+.container-about p {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+h1 {
+	padding-top: 40px;
+}
